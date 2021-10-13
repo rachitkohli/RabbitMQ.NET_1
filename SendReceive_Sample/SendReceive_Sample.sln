@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Receive", "Receive\Receive.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeModel", "EmployeeModel\EmployeeModel.csproj", "{48030626-A3EA-4BA6-8BD6-66912917CFCA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkerQueue", "WorkerQueue\WorkerQueue.csproj", "{5B58A692-B3AF-4AFB-82FE-D4B28922BDE9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{48030626-A3EA-4BA6-8BD6-66912917CFCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48030626-A3EA-4BA6-8BD6-66912917CFCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48030626-A3EA-4BA6-8BD6-66912917CFCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B58A692-B3AF-4AFB-82FE-D4B28922BDE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B58A692-B3AF-4AFB-82FE-D4B28922BDE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B58A692-B3AF-4AFB-82FE-D4B28922BDE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B58A692-B3AF-4AFB-82FE-D4B28922BDE9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

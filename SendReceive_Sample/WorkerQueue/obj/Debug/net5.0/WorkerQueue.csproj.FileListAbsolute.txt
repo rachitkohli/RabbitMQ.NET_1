@@ -1,0 +1,17 @@
+D:\Rachit\Learnings\RabbitMQ.NET_1\SendReceive_Sample\WorkerQueue\bin\Debug\net5.0\WorkerQueue.exe
+D:\Rachit\Learnings\RabbitMQ.NET_1\SendReceive_Sample\WorkerQueue\bin\Debug\net5.0\WorkerQueue.deps.json
+D:\Rachit\Learnings\RabbitMQ.NET_1\SendReceive_Sample\WorkerQueue\bin\Debug\net5.0\WorkerQueue.runtimeconfig.json
+D:\Rachit\Learnings\RabbitMQ.NET_1\SendReceive_Sample\WorkerQueue\bin\Debug\net5.0\WorkerQueue.runtimeconfig.dev.json
+D:\Rachit\Learnings\RabbitMQ.NET_1\SendReceive_Sample\WorkerQueue\bin\Debug\net5.0\WorkerQueue.dll
+D:\Rachit\Learnings\RabbitMQ.NET_1\SendReceive_Sample\WorkerQueue\bin\Debug\net5.0\ref\WorkerQueue.dll
+D:\Rachit\Learnings\RabbitMQ.NET_1\SendReceive_Sample\WorkerQueue\bin\Debug\net5.0\WorkerQueue.pdb
+D:\Rachit\Learnings\RabbitMQ.NET_1\SendReceive_Sample\WorkerQueue\bin\Debug\net5.0\RabbitMQ.Client.dll
+D:\Rachit\Learnings\RabbitMQ.NET_1\SendReceive_Sample\WorkerQueue\obj\Debug\net5.0\WorkerQueue.csproj.AssemblyReference.cache
+D:\Rachit\Learnings\RabbitMQ.NET_1\SendReceive_Sample\WorkerQueue\obj\Debug\net5.0\WorkerQueue.GeneratedMSBuildEditorConfig.editorconfig
+D:\Rachit\Learnings\RabbitMQ.NET_1\SendReceive_Sample\WorkerQueue\obj\Debug\net5.0\WorkerQueue.AssemblyInfoInputs.cache
+D:\Rachit\Learnings\RabbitMQ.NET_1\SendReceive_Sample\WorkerQueue\obj\Debug\net5.0\WorkerQueue.AssemblyInfo.cs
+D:\Rachit\Learnings\RabbitMQ.NET_1\SendReceive_Sample\WorkerQueue\obj\Debug\net5.0\WorkerQueue.csproj.CoreCompileInputs.cache
+D:\Rachit\Learnings\RabbitMQ.NET_1\SendReceive_Sample\WorkerQueue\obj\Debug\net5.0\WorkerQueue.dll
+D:\Rachit\Learnings\RabbitMQ.NET_1\SendReceive_Sample\WorkerQueue\obj\Debug\net5.0\ref\WorkerQueue.dll
+D:\Rachit\Learnings\RabbitMQ.NET_1\SendReceive_Sample\WorkerQueue\obj\Debug\net5.0\WorkerQueue.pdb
+D:\Rachit\Learnings\RabbitMQ.NET_1\SendReceive_Sample\WorkerQueue\obj\Debug\net5.0\WorkerQueue.genruntimeconfig.cache
