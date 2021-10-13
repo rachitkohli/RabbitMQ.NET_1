@@ -11,7 +11,6 @@ D:\Rachit\Learnings\RabbitMQ.NET_1\SendReceive_Sample\Receive\obj\Debug\net5.0\R
 D:\Rachit\Learnings\RabbitMQ.NET_1\SendReceive_Sample\Receive\obj\Debug\net5.0\Receive.AssemblyInfoInputs.cache
 D:\Rachit\Learnings\RabbitMQ.NET_1\SendReceive_Sample\Receive\obj\Debug\net5.0\Receive.AssemblyInfo.cs
 D:\Rachit\Learnings\RabbitMQ.NET_1\SendReceive_Sample\Receive\obj\Debug\net5.0\Receive.csproj.CoreCompileInputs.cache
-D:\Rachit\Learnings\RabbitMQ.NET_1\SendReceive_Sample\Receive\obj\Debug\net5.0\Receive.csproj.CopyComplete
 D:\Rachit\Learnings\RabbitMQ.NET_1\SendReceive_Sample\Receive\obj\Debug\net5.0\Receive.dll
 D:\Rachit\Learnings\RabbitMQ.NET_1\SendReceive_Sample\Receive\obj\Debug\net5.0\ref\Receive.dll
 D:\Rachit\Learnings\RabbitMQ.NET_1\SendReceive_Sample\Receive\obj\Debug\net5.0\Receive.pdb

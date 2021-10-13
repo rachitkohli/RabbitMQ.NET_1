@@ -11,8 +11,10 @@ D:\Rachit\Learnings\RabbitMQ.NET_1\SendReceive_Sample\Send\obj\Debug\net5.0\Send
 D:\Rachit\Learnings\RabbitMQ.NET_1\SendReceive_Sample\Send\obj\Debug\net5.0\Send.AssemblyInfoInputs.cache
 D:\Rachit\Learnings\RabbitMQ.NET_1\SendReceive_Sample\Send\obj\Debug\net5.0\Send.AssemblyInfo.cs
 D:\Rachit\Learnings\RabbitMQ.NET_1\SendReceive_Sample\Send\obj\Debug\net5.0\Send.csproj.CoreCompileInputs.cache
-D:\Rachit\Learnings\RabbitMQ.NET_1\SendReceive_Sample\Send\obj\Debug\net5.0\Send.csproj.CopyComplete
 D:\Rachit\Learnings\RabbitMQ.NET_1\SendReceive_Sample\Send\obj\Debug\net5.0\Send.dll
 D:\Rachit\Learnings\RabbitMQ.NET_1\SendReceive_Sample\Send\obj\Debug\net5.0\ref\Send.dll
 D:\Rachit\Learnings\RabbitMQ.NET_1\SendReceive_Sample\Send\obj\Debug\net5.0\Send.pdb
 D:\Rachit\Learnings\RabbitMQ.NET_1\SendReceive_Sample\Send\obj\Debug\net5.0\Send.genruntimeconfig.cache
+D:\Rachit\Learnings\RabbitMQ.NET_1\SendReceive_Sample\Send\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\Rachit\Learnings\RabbitMQ.NET_1\SendReceive_Sample\Send\bin\Debug\net5.0\EmployeeModel.dll
+D:\Rachit\Learnings\RabbitMQ.NET_1\SendReceive_Sample\Send\bin\Debug\net5.0\EmployeeModel.pdb

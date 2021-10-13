@@ -8,10 +8,19 @@
     ".NETCoreApp,Version=v5.0": {
       "Send/1.0.0": {
         "dependencies": {
+          "EmployeeModel": "1.0.0",
           "RabbitMQ.Client": "6.2.2"
         },
         "runtime": {
           "Send.dll": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.1.25517"
+          }
         }
       },
       "RabbitMQ.Client/6.2.2": {
@@ -27,7 +36,15 @@
         }
       },
       "System.Memory/4.5.4": {},
-      "System.Threading.Channels/4.7.1": {}
+      "System.Threading.Channels/4.7.1": {},
+      "EmployeeModel/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "runtime": {
+          "EmployeeModel.dll": {}
+        }
+      }
     }
   },
   "libraries": {
@@ -35,6 +52,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Newtonsoft.Json/13.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "path": "newtonsoft.json/13.0.1",
+      "hashPath": "newtonsoft.json.13.0.1.nupkg.sha512"
     },
     "RabbitMQ.Client/6.2.2": {
       "type": "package",
@@ -56,6 +80,11 @@
       "sha512": "sha512-6akRtHK/wab3246t4p5v3HQrtQk8LboOt5T4dtpNgsp3zvDeM4/Gx8V12t0h+c/W9/enUrilk8n6EQqdQorZAA==",
       "path": "system.threading.channels/4.7.1",
       "hashPath": "system.threading.channels.4.7.1.nupkg.sha512"
+    },
+    "EmployeeModel/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

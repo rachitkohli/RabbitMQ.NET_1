@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "4gtXbAnIdiDPvDFB2u0qKBSZKrkTQrbDWdSQW7VDN5HMV465sUIgSp5PpONjXoVxn+PNsBvOkT3wcGYhZRRErQ==",
+  "dgSpecHash": "ofSgvqYAi4c0TxpB0JLGDqEhHBFdgJyBG8sKs0u4iLh5X+Au+ESyDWXKFmHHw9jcIwwpN14w7NgsogcyyWpQ5w==",
   "success": true,
   "projectFilePath": "D:\\Rachit\\Learnings\\RabbitMQ.NET_1\\SendReceive_Sample\\Send\\Send.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\rkohli\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\rkohli\\.nuget\\packages\\rabbitmq.client\\6.2.2\\rabbitmq.client.6.2.2.nupkg.sha512",
     "C:\\Users\\rkohli\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
     "C:\\Users\\rkohli\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512"

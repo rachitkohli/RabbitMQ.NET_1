@@ -20,21 +20,23 @@ namespace Receive
             {
                 using (var channel = connection.CreateModel()) //Create channel
                 {
-                    channel.QueueDeclare(queue: "hello",    //this will create a queue, if not present
+                    channel.QueueDeclare(queue: "empQueue",    //this will create a queue, if not present
                         durable: false,
                         exclusive: false,
                         autoDelete: false,
                         arguments: null);
 
                     var consumer = new EventingBasicConsumer(channel);
+                    Console.WriteLine(" Message Count {0}", channel.MessageCount("empQueue").ToString());
                     consumer.Received += (model, ea) =>
                     {
                         var body = ea.Body.ToArray();
                         var message = Encoding.UTF8.GetString(body);
+                        
                         Console.WriteLine(" [x] Received {0}", message);
                     };
 
-                    channel.BasicConsume(queue: "hello",
+                    channel.BasicConsume(queue: "empQueue",
                         autoAck: true,
                         consumer: consumer);
 

@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     "net5.0": {
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
       "RabbitMQ.Client/6.2.2": {
         "type": "package",
         "dependencies": {
@@ -32,10 +41,50 @@
         "runtime": {
           "lib/netcoreapp3.0/System.Threading.Channels.dll": {}
         }
+      },
+      "EmployeeModel/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "compile": {
+          "bin/placeholder/EmployeeModel.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EmployeeModel.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "Newtonsoft.Json/13.0.1": {
+      "sha512": "ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
     "RabbitMQ.Client/6.2.2": {
       "sha512": "+tJSgE+rQXgLvOxWvOxdZ0+No1EMa86+puZuNlCb4cNryHw2PY2Xiw/y2dz/WWdeJQp74Y2UnNXPkuLiYpvn+A==",
       "type": "package",
@@ -101,10 +150,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "EmployeeModel/1.0.0": {
+      "type": "project",
+      "path": "../EmployeeModel/EmployeeModel.csproj",
+      "msbuildProject": "../EmployeeModel/EmployeeModel.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "EmployeeModel >= 1.0.0",
       "RabbitMQ.Client >= 6.2.2"
     ]
   },
@@ -138,7 +193,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Rachit\\Learnings\\RabbitMQ.NET_1\\SendReceive_Sample\\EmployeeModel\\EmployeeModel.csproj": {
+              "projectPath": "D:\\Rachit\\Learnings\\RabbitMQ.NET_1\\SendReceive_Sample\\EmployeeModel\\EmployeeModel.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
