@@ -32,7 +32,7 @@ namespace WorkerQueue
                     Console.WriteLine(" Message Count {0}", channel.MessageCount("empQueue").ToString());
                     consumer.Received += (model, ea) =>
                     {
-                        var body = ea.Body.ToArray();
+                        var body = ea.Body.ToArray(); 
                         
                         var message = Encoding.UTF8.GetString(body);
                         channel.BasicAck(ea.DeliveryTag, false);    //Acknowledging the message

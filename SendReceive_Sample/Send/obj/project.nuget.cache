@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ofSgvqYAi4c0TxpB0JLGDqEhHBFdgJyBG8sKs0u4iLh5X+Au+ESyDWXKFmHHw9jcIwwpN14w7NgsogcyyWpQ5w==",
+  "dgSpecHash": "zFjocYEO/oi87Y6ComQfRvgtdyMuWlUXLxeo8IPD64NxKXWlfLg0DQRwjt7kyXm2IqSqbwK0HFYpitIteSqqSw==",
   "success": true,
   "projectFilePath": "D:\\Rachit\\Learnings\\RabbitMQ.NET_1\\SendReceive_Sample\\Send\\Send.csproj",
   "expectedPackageFiles": [
